@@ -1,0 +1,10 @@
+1. Semantic HTML are HTML tags  provide meaning to the code and content. It is recognized by anyone devloping.
+
+2. The display block indicates that an element is block level and will take up the entire width of it's line. It's height and all box model properties can be adjusted. The height and width properties are not valid on inline elements.
+
+
+3.Content, Padding, Border, Margin
+4.cross axis
+5. git commit -m ""
+
+
