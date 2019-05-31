@@ -138,7 +138,10 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
 }
-/* Figured out how to set color for each box! */
+/* Figured out how to set color for each box!
+
+*/
+
 
 .boxes .box:nth-child(1){
     background: teal;
@@ -175,10 +178,6 @@ text-decoration: none;
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
 footer {
     width: 100%;
     background: black;
@@ -198,7 +197,49 @@ footer nav a {
     text-decoration: none;
 }
 
-.middle-content .boxes .boxa{
 
-    background: teal;
+/*About page*/
+.mid-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aboutTopContainer{
+border-bottom: 1px dashed black;
+margin: 30px;
+padding-bottom: 20px;
+}
+.topAbout{
+    display:flex;
+    flex-direction: column;
+    align-items: space-around;
+    padding-bottom: 20px;
+}
+
+
+.about-content{
+display: flex;
+flex-direction: column;
+border-bottom: 1px dashed black;
+align-items: space-between;
+width: 45%;
+padding: 10px;
+margin-bottom: 40px;
+}
+
+.about-content h2{
+    margin-top:20px;
+}
+.about-content button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.about-bottom-container{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
 }
