@@ -66,10 +66,37 @@ p {
     line-height: 1.4;
 }
 
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+.headContainer{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.container .sub{
+    padding-bottom:30px;
+}
+
+
+.headContainer nav{
+display: flex;
+align-items: baseline;
+
+justify-content: space-between;
+}
+.headContainer nav a{
+color: black;
+text-decoration: none;
+}
+
+
+
+
+
 
 .top-content {
     display: flex;
